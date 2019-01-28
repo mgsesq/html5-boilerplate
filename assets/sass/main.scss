@@ -9,9 +9,15 @@
 /// This is the master SASS file for this project.
 ////
 
+// Development
+$image-path: '../../public/img/';
+
+// Production
+// $image-path: 'storage/images/test-area/test-image-background/143493-1-eng-US/';
+
 // Imports
     @import "partials/components/boilerplate";
-    @import "partials/libs/bootstrap/bootstrap"; // Imports Bootstrap Framework
+//    @import "partials/libs/bootstrap/bootstrap"; // Imports Bootstrap Framework
 
     @import "partials/mixins/mixin-main"; // Imports mixins as defined by mixin-main partial. Check Bourbon before creating a mixin to see if it is already available.
 
@@ -22,3 +28,6 @@
     @import "partials/components/bootstrap-overrides"; // Use this file to override any of the Bootstrap functionality
     @import "partials/includes/includes-main"; // Imports optional common features (not to be confused with site features)
     @import "partials/components/features/feature-example"; // Feature-specific partials belong here
+
+    @import "partials/components/features/advert";
+    @import "partials/components/features/layout";

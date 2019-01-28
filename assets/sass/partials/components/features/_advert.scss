@@ -1,0 +1,107 @@
+////
+/// Feature Name (example)
+/// Feature description goes here.
+/// @author Contextual Code
+/// @access public
+////
+
+.advert-title-box {
+    width: 100% !important;
+    background-color: #F9A01B !important;
+    background-image: none !important;
+    h2 {
+        color: #fff !important;
+        text-shadow: 0px 0px 2px #969696 !important;
+        text-align: center !important;
+        font-size: 32px !important;
+        padding: 15px 0 10px 0 !important;
+    }
+}
+
+.advert-content-box {
+    background-color: #fff !important;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    header {
+        text-align: center !important;
+        font-size: 32px !important;
+        color: #fff !important;
+        padding: 15px !important;
+        background-color: #78CCD0 !important;
+        margin-bottom: 20px !important;
+        iframe {
+            margin-top: 15px;
+        }
+    }
+    p {
+        font-size: 16px !important;
+        color: #fff !important;
+        line-height: 1.2em !important;
+    }
+    .mobile-links {
+        background-color: #78ccd0;
+        color: #fff !important;
+        padding: 15px !important;
+        text-align: center !important;
+    }
+}
+
+
+#app-promo,
+#app-promo-bottom {
+    width: 935px;
+    height: 361px;
+    background-image: url("#{$image-path}test-image-background_imagelarge.png");
+    background-size: cover;
+    .fifty {
+        width: 40%;
+        float: left;
+        &.left {
+            margin-left: 10%;
+            padding-top: 65px;
+        }
+        &.right {
+            margin-right: 10%;
+        }
+        p {
+            margin-left: 0px;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            color: #000;
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+#app-promo-bottom {
+    display: inline-table;
+    margin-top: -15px;
+}
+
+.appLink.playStore {
+    display: inline-block;
+    overflow: hidden;
+    width: 155px;
+    height: 64px;
+    position: relative;
+    top: 12px;
+    img {
+        width: 150px;
+        height: 65px;
+    }
+}
+
+#app-promo-bottom .appLink.playStore {
+    top: 2px;
+}
+
+.promo-close {
+    float: right;
+    position: relative;
+    right: 10px;
+    top: -350px;
+}

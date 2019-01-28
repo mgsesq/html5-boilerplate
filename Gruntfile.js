@@ -119,7 +119,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-postcss');
 
     // Default task(s).
-    grunt.registerTask('default', ['copy', 'uglify', 'sass', 'postcss']);
+    grunt.registerTask('default', ['copy', 'uglify', 'sass', 'postcss', 'imagemin']);
     grunt.registerTask('prod', ['clean', 'copy', 'uglify', 'sass', 'postcss', 'imagemin']);
 
     grunt.registerTask('img', ['copy', 'uglify', 'sass', 'postcss', 'imagemin']);

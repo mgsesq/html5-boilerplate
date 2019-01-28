@@ -1,0 +1,46 @@
+////
+/// Feature Name (example)
+/// Feature description goes here.
+/// @author Contextual Code
+/// @access public
+////
+
+#sidemenu {
+    display: none !important;
+}
+
+#columns {
+    padding-left: 0px !important;
+}
+
+#getTheApp {
+    display: none !important;
+}
+
+.featherlight #getTheApp {
+    display: block !important;
+}
+
+.center-this {
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+
+table tbody tr td:first-of-type {
+    width: 60% !important;
+    font-size: 18px !important;
+    line-height: 1.4em !important;
+}
+
+.colored {
+    color: #f9a01b !important;
+}
+
+.video {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.marg-btm {
+    padding-bottom: 35px;
+}
